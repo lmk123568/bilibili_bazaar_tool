@@ -7,7 +7,7 @@
 
 > ⚠ 请先登录 bilibili，获取 cookie，就可以利用该 cookie 模拟请求访问集市
 
-### 打包教程
+### 如何打包
 
 本项目用 pyinstaller 打包
 
