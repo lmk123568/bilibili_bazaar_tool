@@ -1,9 +1,13 @@
 from PyInstaller.utils.hooks import copy_metadata
 from PyInstaller.utils.hooks import collect_data_files
 
+
+# import importlib
+# print(importlib.util.find_spec("streamlit"))
+
 datas = [
     (
-        "C:\\Users\\24089\\miniconda3\\envs\\aaa\\Lib\\site-packages\\streamlit\\runtime",
+        "C:\\Users\\24089\\miniconda3\\Lib\\site-packages\\streamlit\\runtime",
         "./streamlit/runtime",
     )
 ]

@@ -12,7 +12,7 @@
 本项目用 pyinstaller 打包
 
 ```bash
-pyinstaller -F --additional-hooks-dir=./hooks -i "bilibili-line.png" run_main.py
+pyinstaller -F --additional-hooks-dir=./hooks -i "bilibili.png" run_main.py
 ```
 
 打包的关键点在于写好 hook，参考`./hooks/hook-streamlit.py`，将 streamlit 库以及 `main.py`、`bilibili.png` 等文件打包成单个 exe 文件
