@@ -3,7 +3,7 @@
 
 ### 如何使用
 
-下载打包压缩好的 [zip](https://github.com/lmk123568/bilibili_bazaar_tool/releases) 文件并解压，解压后双击运行 exe 文件
+去这里下载 [exe](https://github.com/lmk123568/bilibili_bazaar_tool/releases) 文件，双击运行
 
 > ⚠ 请先登录 bilibili，获取 cookie，就可以利用该 cookie 模拟请求访问集市
 
